@@ -32,3 +32,9 @@ if latest_commit_sha == repo.get_branch('master').commit.sha:
     print('Code is up to date')
 else:
     print('Code updated to latest version')
+    
+print('Code updated to latest version')
+print('Code updated to latest version')
+print('Code updated to latest version')
+print('Code updated to latest version')
+print('Code updated to latest version')
