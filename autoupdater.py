@@ -17,6 +17,8 @@ repo = g.get_repo(REPO_URL.split('github.com/')[1])
 # Get the latest commit SHA for the master branch
 latest_commit_sha = repo.get_branch('master').commit.sha
 
+print("Code Update 6:35PM 2 May 2023")
+
 # Check if the latest commit SHA matches the SHA of the current local code
 if os.path.exists(LOCAL_DIR):
     os.chdir(LOCAL_DIR)
