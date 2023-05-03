@@ -33,4 +33,4 @@ if latest_commit_sha == repo.get_branch('master').commit.sha:
 else:
     print('Code updated to latest version')
     
-print('OK Raj ')
+print('OK Raj Auto Update Successful')
